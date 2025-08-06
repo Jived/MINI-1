@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  height: 500px;
+  display: flex;
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+#score, h1, p {
+  user-select: none;
+}
+
+#info {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
